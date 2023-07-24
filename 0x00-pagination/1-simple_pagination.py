@@ -26,6 +26,7 @@ class Server:
     DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
+        """init class"""
         self.__dataset = None
 
     def dataset(self) -> List[List]:
@@ -40,6 +41,7 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """get page using index range"""
         assert ((type(page) == int) & (page > 0))
         assert (type(page_size) == int)
         assert (page_size > 0)
