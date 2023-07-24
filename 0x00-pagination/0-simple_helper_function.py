@@ -10,6 +10,7 @@ pagination parameters.
 
 
 def index_range(page: int, page_size: int) -> tuple:
+    """returns index range in a page"""
     x = (page - 1) * page_size
     y = page * page_size
     list_range = (x, y)
