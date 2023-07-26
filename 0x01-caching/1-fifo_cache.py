@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """A first in first out cache class"""
 BaseCaching = __import__('base_caching').BaseCaching
 
