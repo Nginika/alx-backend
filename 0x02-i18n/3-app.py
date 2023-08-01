@@ -37,4 +37,5 @@ def hello_world():
 
 
 if __name__ == "__main__":
+    """call as main function"""
     app.run(host="0.0.0.0", port="5000")
